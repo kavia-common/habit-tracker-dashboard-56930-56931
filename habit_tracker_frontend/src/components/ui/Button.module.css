@@ -1,0 +1,60 @@
+.btn {
+  border-radius: 12px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background 120ms ease, border-color 120ms ease, transform 80ms ease;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.md {
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.sm {
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.primary {
+  background: var(--primary);
+  color: white;
+}
+
+.primary:hover {
+  background: var(--primaryHover);
+}
+
+.secondary {
+  background: rgba(16, 185, 129, 0.14);
+  color: var(--text);
+  border-color: rgba(16, 185, 129, 0.20);
+}
+
+.secondary:hover {
+  background: rgba(16, 185, 129, 0.20);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.ghost:hover {
+  background: var(--hover);
+}
+
+.danger {
+  background: rgba(239, 68, 68, 0.14);
+  color: var(--text);
+  border-color: rgba(239, 68, 68, 0.22);
+}
+
+.danger:hover {
+  background: rgba(239, 68, 68, 0.20);
+}

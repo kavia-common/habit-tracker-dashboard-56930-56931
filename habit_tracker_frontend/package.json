@@ -1,0 +1,44 @@
+{
+  "name": "habit-tracker-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Habit tracker dashboard frontend (React).",
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "chart.js": "^4.4.3",
+    "date-fns": "^3.6.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
+    "uuid": "^10.0.0",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "PORT=$REACT_APP_PORT react-scripts start",
+    "build": "GENERATE_SOURCEMAP=$REACT_APP_ENABLE_SOURCE_MAPS react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
